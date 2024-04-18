@@ -49,12 +49,7 @@ const Navbar = () => {
     <div>
       <header className={styles.header}>
         <div className={styles["flex-div"]}>
-          <div className={styles["location-div"]}>
-          <p className={styles['navbar-p']}>Upcoming <br/><span className={styles['navbar-p-span']}>Projects</span></p>
-          </div>
-          <div className={styles["location-div"]}>
-            <p className={styles['navbar-p']}>Ongoing <br/><span className={styles['navbar-p-span']}>Projects</span></p>
-          </div>
+          <p className={styles["navbar-title"]}>Elite <span className={styles["golden-span"]}>Group</span> Of <span className={styles["golden-span"]}>Companies</span></p>
         </div>
 
         <div id={styles["site-logo"]}>
@@ -65,13 +60,29 @@ const Navbar = () => {
           </div>
         </div>
         <div className={styles["content-end"]}>
+          <div className={styles["projects-dropdown"]}>
+            <h1 className={styles["navbar-projects-text"]}>PROJECTS</h1>
+            <div className={styles["navbar-dropdown"]}>
+              <ul className={styles["dropdown-ul"]}>
+                <li>
+                  <h1>Upcoming</h1>
+                </li>
+                <li>
+                  <h1>Ongoing</h1>
+                </li>
+                <li>
+                  <h1>Completed</h1>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div className={styles["location-div"]}>
             <div className={styles["icon-div"]}>
               <i id={styles.icon} className="fa-solid fa-phone"></i>
             </div>
             <div className={styles.content}>
               <p className={styles.p1}>EliteGroup@gmail.com</p>
-              <p className={styles.pp}>phone no: +34 455 698 1220</p>
+              <p className={styles.pp}>+34 455 698 1220</p>
             </div>
           </div>
           <div className={styles["button-div"]}>

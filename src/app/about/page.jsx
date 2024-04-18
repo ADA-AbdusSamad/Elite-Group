@@ -21,7 +21,7 @@ const About = () => {
             <h2>we create experiences, weaving narratives that turn each<br /> interaction into a celebration of luxury living..</h2>
             <p className="pt-3">we are more than just a real estate agency - we are your trusted partners in realizing your property goals. With years of industry expertise and a commitment to excellence, we strive to deliver unparalleled service and satisfaction to our clients. Learn more about our vision, values, and the team behind our success</p>
             <div className="discover-btn-div">
-              <button className="discover-btn">DISCOVER MENU</button>
+              <button className="discover-btn">DISCOVER MENU</button> 
             </div>
           </div>
         </div>

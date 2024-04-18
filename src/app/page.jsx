@@ -44,7 +44,7 @@ export default function Home() {
                 <h1 className="h1-text2">Where every flavor tells a story</h1>
                 <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
-                  <button className="discover-btn">DISCOVER MENU</button>
+                  <button className="discover-btn">DISCOVER</button>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 <h1 className="h1-text2">Where every flavor tells a story</h1>
                 <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
-                  <button className="discover-btn">DISCOVER MENU</button>
+                  <button className="discover-btn">DISCOVER</button>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
                 <h1 className="h1-text2">Where every flavor tells a story</h1>
                 <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
-                  <button className="discover-btn">DISCOVER MENU</button>
+                  <button className="discover-btn">DISCOVER</button>
                 </div>
               </div>
             </div>

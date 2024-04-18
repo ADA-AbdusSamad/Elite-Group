@@ -5,12 +5,14 @@
   background-color: #0e1618;
   padding: 0 1rem;
 }
+
 .location-div {
   width: 23.9rem;
   height: 6rem;
   display: flex;
   align-items: center;
 }
+
 .icon-div {
   width: 46px;
   height: 46px;
@@ -20,10 +22,12 @@
   align-items: center;
   justify-content: center;
 }
+
 #icon {
   color: #c6ac83 !important;
   font-size: 1.5rem;
 }
+
 .content {
   padding-left: 1.5rem;
 }
@@ -35,6 +39,7 @@
   transform: translateX(-71.5px);
   z-index: 5;
 }
+
 .site-logo-wrap {
   padding: 10px 46px 13px 46px;
   border-left: 1px solid rgb(198 172 131 / 80%);
@@ -44,6 +49,7 @@
   border-bottom-right-radius: 72.5px;
   background-color: #0e1618;
 }
+
 #logo_header {
   width: 51px;
   height: 92px;
@@ -54,6 +60,7 @@
   font-size: 1.3rem;
   margin-bottom: 0;
 }
+
 .pp {
   color: white;
   font-size: 1.3rem;
@@ -64,13 +71,12 @@
   width: 100%;
   display: flex;
   justify-content: end;
-  gap: 6rem;
+  gap: 5rem;
 }
 
 .flex-div {
   width: 100%;
   display: flex;
-  
   justify-content: center;
 }
 
@@ -87,13 +93,14 @@
   line-height: 50px;
   letter-spacing: 2px;
   transition: all 0.3s ease-in-out;
-  border:  none;
+  border: none;
 }
 
 .button-div button:hover {
   background-color: #FFF;
   color: #c6ac83;
 }
+
 .navbar-p {
   color: #c6ac83;
   letter-spacing: 3px;
@@ -103,10 +110,77 @@
   cursor: pointer;
   font-style: italic;
 }
+
 .navbar-p-span {
   color: white !important;
   font-size: 1.5rem;
   text-align: center;
   font-family: PS Demo;
   margin-bottom: 0;
+}
+
+.navbar-title {
+  font-family: 'PS Demo';
+  letter-spacing: 2px;
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 0;
+  font-style: italic;
+  word-spacing: 2px;
+  position: relative;
+}
+
+.golden-span {
+  color: #c6ac83;
+}
+
+.navbar-projects-text {
+  font-size: 2rem;
+}
+.flex-div:hover .navbar-title::before {
+  width: 98%;
+  left: 1px;
+  right: auto;
+}
+
+.navbar-title::before {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: auto;
+  height: 2px;
+  background-color: #c6ac83;
+  width: 0;
+  transition: width 0.3s ease;
+}
+.navbar-dropdown {
+  border: 1px solid #c6ac83;
+  width: 21rem;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  border-radius: 8px;
+  background-color: white;
+  display: none;
+  left: -5rem;
+  top: 8rem;
+}
+.projects-dropdown {
+  position: relative;
+}
+.projects-dropdown:hover .navbar-dropdown {
+  display: block !important;
+}
+.dropdown-ul h1 {
+  color: #0e1618 !important;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.dropdown-ul li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.7rem 0;
+  cursor: pointer;
+}
+.dropdown-ul li:last-child {
+  border-bottom: none;
 }
