@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div>
       <section className={styles['menu-section']}>
-        <div className={`${styles['menu-container']} container`}>
+        <div className={`${styles["menu-container"]} container`}>
           <div className={styles['menu-div1']}>
             <div>
               <div className='pb-5'>
@@ -53,21 +53,21 @@ export default function page() {
             <div className={styles['menu-wrap']}>
               <ul className='nav nav-tabs' role="tablist">
                 <li className='nav-item'>
-                  <a className={`${styles['nav-link']} nav-link active`} href="#special" role="tab" data-toggle="tab">Ongoing</a>
+                  <a className={`${styles["nav-link"]} nav-link active`} href="#special" role="tab" data-toggle="tab">Ongoing</a>
                 </li>
                 <li className='nav-item'>
-                  <a className={`${styles['nav-link']} nav-link`} href="#dinner" role="tab" data-toggle="tab">Upcoming</a>
+                  <a className={`${styles["nav-link"]} nav-link`} href="#dinner" role="tab" data-toggle="tab">Upcoming</a>
                 </li>
                 <li className='nav-item'>
-                  <a className={`${styles['nav-link']} nav-link`} href="#dessert" role="tab" data-toggle="tab">Completed</a>
+                  <a className={`${styles["nav-link"]} nav-link`} href="#dessert" role="tab" data-toggle="tab">Completed</a>
                 </li>
                 <li className='nav-item'>
-                  <a className={`${styles['nav-link']} nav-link`} href="#wine" role="tab" data-toggle="tab">Location</a>
+                  <a className={`${styles["nav-link"]} nav-link`} href="#wine" role="tab" data-toggle="tab">Location</a>
                 </li>
               </ul>
               <div className={styles['tab-container']}>
                 <div className="tab-content">
-                  <div id="special" className={`${styles['menu-list']} tab-pane active`} role="tabpanel">
+                  <div id="special" className={`${styles["menu-list"]} tab-pane active`} role="tabpanel">
                     <img src='ongoing-img.jpg'></img>
                     <div className='event-divider event-divider-menu'>
                       <div>
@@ -82,7 +82,7 @@ export default function page() {
                     <p className='text-center'>Andheri east, Millat nagar - Curry Road</p>
 
                   </div>
-                  <div id="dinner" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                  <div id="dinner" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                     <img src='upcoming-img.jpg'></img>
                     <div className='event-divider event-divider-menu'>
                       <div>
@@ -96,7 +96,7 @@ export default function page() {
                     </div>
                     <p className='text-center'>Andheri east, Millat nagar - Curry Road</p>
                   </div>
-                  <div id="dessert" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                  <div id="dessert" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                     <img src='completed-img.jpg'></img>
                     <div className='event-divider event-divider-menu'>
                       <div>
@@ -110,7 +110,7 @@ export default function page() {
                     </div>
                     <p className='text-center'>Andheri east, Millat nagar - Curry Road</p>
                   </div>
-                  <div id="wine" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                  <div id="wine" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                     <div className={styles['menu-list-wrap']}>
                       <div className='name'>
                         <h1>PURPLE CORN TOSTODA</h1>
@@ -119,7 +119,7 @@ export default function page() {
                       <div className={styles.price}>$87</div>
                     </div>
                     <p>Candied jerusalem artichokes, truffle</p>
-                    <div className={`${styles['menu-list']}`}>
+                    <div className={`${styles["menu-list"]}`}>
                       <div className={styles['menu-list-wrap']}>
                         <div className='name'>
                           <h1>PURPLE CORN TOSTODA</h1>
@@ -129,7 +129,7 @@ export default function page() {
                       </div>
                       <p>Candied jerusalem artichokes, truffle</p>
                     </div>
-                    <div className={`${styles['menu-list']}`}>
+                    <div className={`${styles["menu-list"]}`}>
                       <div className={styles['menu-list-wrap']}>
                         <div className='name'>
                           <h1>PURPLE CORN TOSTODA</h1>
@@ -139,7 +139,7 @@ export default function page() {
                       </div>
                       <p>Candied jerusalem artichokes, truffle</p>
                     </div>
-                    <div className={`${styles['menu-list']}`}>
+                    <div className={`${styles["menu-list"]}`}>
                       <div className={styles['menu-list-wrap']}>
                         <div className='name'>
                           <h1>PURPLE CORN TOSTODA</h1>

@@ -5,7 +5,7 @@ export default function page() {
     return (
         <div>
             <section className={styles['menuPage-section']}>
-                <div className={`${styles['menuPage-container']} container`}>
+                <div className={`${styles["menuPage-container"]} container`}>
                     <div>
                         <h1 className={styles['menuPage-h1']}>Our menu style 2</h1>
                         <p>Explore our menu with a wide range of Asian to European dishes, dishes to suit all
@@ -16,7 +16,7 @@ export default function page() {
             <section className={styles['menuPage-content']}>
                 <img className={styles['image-item1']} src='https://themesflat.co/html/restaurant/luxury/assets/images/item-background/item-1.png'></img>
                 <img className={styles['image-item2']} src='https://themesflat.co/html/restaurant/luxury/assets/images/item-background/item-1.png'></img>
-                <div className={`${styles['menuPage-container2']} container`}>
+                <div className={`${styles["menuPage-container2"]} container`}>
                     <div className='text-center'>
                         <h3>What food do we have in our restaurant?</h3>
                         <h1>FROM OUR MENU</h1>
@@ -63,7 +63,7 @@ export default function page() {
                         <div className={styles['menu-list-div']}>
                             <div className={styles['tab-container']}>
                                 <div className="tab-content">
-                                    <div id="special" className={`${styles['menu-list']} tab-pane active`} role="tabpanel">
+                                    <div id="special" className={`${styles["menu-list"]} tab-pane active`} role="tabpanel">
                                         <div className={styles['menu-list-wrap']}>
                                             <div className='name'>
                                                 <h1>PURPLE CORN TOSTODA</h1>
@@ -103,7 +103,7 @@ export default function page() {
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div> */}
                                     </div>
-                                    <div id="dinner" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                                    <div id="dinner" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                                         <div className={styles['menu-list-wrap']}>
                                             <div className='name'>
                                                 <h1>PURPLE CORN TOSTODA</h1>
@@ -112,7 +112,7 @@ export default function page() {
                                             <div className='text-white'>$price</div>
                                         </div>
                                         <p>Candied jerusalem artichokes, truffle</p>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -122,7 +122,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -132,7 +132,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -143,7 +143,7 @@ export default function page() {
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
                                     </div>
-                                    <div id="dessert" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                                    <div id="dessert" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                                         <div className={styles['menu-list-wrap']}>
                                             <div className='name'>
                                                 <h1>PURPLE CORN TOSTODA</h1>
@@ -152,7 +152,7 @@ export default function page() {
                                             <div className='text-white'>$price</div>
                                         </div>
                                         <p>Candied jerusalem artichokes, truffle</p>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -162,7 +162,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -172,7 +172,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -183,7 +183,7 @@ export default function page() {
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
                                     </div>
-                                    <div id="wine" className={`${styles['menu-list']} tab-pane`} role="tabpanel">
+                                    <div id="wine" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
                                         <div className={styles['menu-list-wrap']}>
                                             <div className='name'>
                                                 <h1>PURPLE CORN TOSTODA</h1>
@@ -192,7 +192,7 @@ export default function page() {
                                             <div className='text-white'>$price</div>
                                         </div>
                                         <p>Candied jerusalem artichokes, truffle</p>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -202,7 +202,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>
@@ -212,7 +212,7 @@ export default function page() {
                                             </div>
                                             <p>Candied jerusalem artichokes, truffle</p>
                                         </div>
-                                        <div className={`${styles['menu-list']}`}>
+                                        <div className={`${styles["menu-list"]}`}>
                                             <div className={styles['menu-list-wrap']}>
                                                 <div className='name'>
                                                     <h1>PURPLE CORN TOSTODA</h1>

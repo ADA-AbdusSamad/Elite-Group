@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className={styles['footer-section']}>
-        <div className={`${styles['footer-container']} container`}>
+        <div className={`${styles["footer-container"]} container`}>
           <div className={styles['items']}>
             <div className={styles['item1']}>
               <h1>WE ARE HERE</h1>

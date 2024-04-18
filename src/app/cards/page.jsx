@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div>
       <section className={styles['card-section']}>
-        <div className={`${styles['card-flex']} container-fluid`}>
+        <div className={`${styles["card-flex"]} container-fluid`}>
           <div className={styles['card-items']}>
             <img src='https://fama.b-cdn.net/elitegroup/eminities1.jpg' />
             <div className={styles['inner-div']}>
@@ -42,10 +42,10 @@ export default function page() {
         </div>
         <div className='text-center pb-5 mt-5 pt-5'>
           <h3 className={styles['signIn-text']}>Sign up to receive news and offers from us!</h3>
-          <div className={`${styles['signIn-container']} container`}>
+          <div className={`${styles["signIn-container"]} container`}>
             <input type='text' placeholder='Email Address*' className={styles['name-input']}></input>
-            <div className={`${styles['discover-btn-div']} discover-btn-div d-flex justify-content-center`}>
-              <button className={`${styles['discover-btn']} discover-btn`}>GET DIRECTION</button>
+            <div className={`${styles["discover-btn-div"]} discover-btn-div d-flex justify-content-center`}>
+              <button className={`${styles["discover-btn"]} discover-btn`}>GET DIRECTION</button>
             </div>
           </div>
           <p className={styles['res-p']}>* We promise not to spam your inbox in any way</p>

@@ -14,7 +14,7 @@ export default function page() {
               <div>
               </div>
             </div>
-            <p>Whether you're hosting a corporate event, cocktail party, luncheon, dinner, meeting, shower, wedding reception, bat/bar mitzvah or rehearsal dinner, we know we can offer you and your guests a truly memorable event. </p>
+            <p>Whether you are hosting a corporate event, cocktail party, luncheon, dinner, meeting, shower, wedding reception, bat/bar mitzvah or rehearsal dinner, we know we can offer you and your guests a truly memorable event. </p>
             <div className="discover-btn-div d-flex justify-content-center">
               <button className="discover-btn">GET STARTED FOR YOUR EVENT</button>
             </div>

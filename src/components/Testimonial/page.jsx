@@ -11,7 +11,7 @@ export default function page() {
                     <div id="carouselExampleControls" className="carousel slide">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <div className={`${styles['testi-container']} container`}>
+                                <div className={`${styles["testi-container"]} container`}>
                                     <div className={styles['testi-img']}>
                                         <img src='https://themesflat.co/html/restaurant/luxury/assets/images/item-background/icon-quote.png'></img>
                                     </div>
@@ -24,7 +24,7 @@ export default function page() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <div className={`${styles['testi-container']} container`}>
+                                <div className={`${styles["testi-container"]} container`}>
                                     <div className={styles['testi-img']}>
                                         <img src='https://themesflat.co/html/restaurant/luxury/assets/images/item-background/icon-quote.png'></img>
                                     </div>

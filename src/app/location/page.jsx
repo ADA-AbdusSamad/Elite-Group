@@ -5,7 +5,7 @@ export default function page() {
     return (
         <div>
             <section className={styles['location-section']}>
-                <div className={`${styles['location-container']} container`}>
+                <div className={`${styles["location-container"]} container`}>
                     <div className={styles.itemDiv1}>
                         <img src='https://cdn.fjorgedigital.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-08-at-11.50.04-AM.png' />
                     </div>
@@ -28,7 +28,7 @@ export default function page() {
                                 <p>Mon - Fri : 9.00am - 22.00pm, Holidays : Close</p>
                             </div>
                             <div className="discover-btn-div d-flex justify-content-center mt-5">
-                                <button className={`${styles['discover-btn']} discover-btn`}>GET DIRECTION</button>
+                                <button className={`${styles["discover-btn"]} discover-btn`}>GET DIRECTION</button>
                             </div>
                         </div>
                     </div>
