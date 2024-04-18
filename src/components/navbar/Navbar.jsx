@@ -50,10 +50,10 @@ const Navbar = () => {
       <header className={styles.header}>
         <div className={styles["flex-div"]}>
           <div className={styles["location-div"]}>
-          <p className={styles['navbar-p']}>Upcoming <br/><p className={styles['navbar-p-span']}>Projects</p></p>
+          <p className={styles['navbar-p']}>Upcoming <br/><span className={styles['navbar-p-span']}>Projects</span></p>
           </div>
           <div className={styles["location-div"]}>
-            <p className={styles['navbar-p']}>Ongoing <br/><p className={styles['navbar-p-span']}>Projects</p></p>
+            <p className={styles['navbar-p']}>Ongoing <br/><span className={styles['navbar-p-span']}>Projects</span></p>
           </div>
         </div>
 
