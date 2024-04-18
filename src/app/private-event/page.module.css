@@ -1,0 +1,200 @@
+.section {
+    background-color: #0e1618;
+    position: relative;
+    padding: 13rem 0;
+}
+
+.section h1 {
+    font-size: 4rem !important;
+}
+
+.section::before {
+    position: absolute;
+    content: '';
+    width: 164px;
+    height: 100%;
+    background-image: url('https://themesflat.co/html/restaurant/luxury/assets/images/item-background/snare.png');
+    top: 0;
+    left: -8px;
+    z-index: 10;
+}
+
+.section::after {
+    position: absolute;
+    content: '';
+    width: 164px;
+    height: 100%;
+    background-image: url('https://themesflat.co/html/restaurant/luxury/assets/images/item-background/snare.png');
+    transform: rotate(180deg);
+    top: 0;
+    right: -9px;
+    z-index: 10;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.section p {
+    font-size: 1.6rem !important;
+    padding: 0 13rem;
+}
+
+.menu-section {
+    width: 100%;
+    background-image: url('https://themesflat.co/html/restaurant/luxury/assets/images/bg-section/bg_our_menu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.menu-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000096;
+}
+
+.menu-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.menu-div1 {
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.divider {
+    width: 156px;
+    height: 1px;
+    background-color: #c6ac83;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.divider-div {
+    position: absolute;
+    border: 1px solid #c6ac83;
+    width: 19px;
+    height: 19px;
+    transform: translate(3px, -50%) rotate(45deg);
+    background-color: #0e1618;
+}
+
+.divider-div::after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #c6ac83;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-div2{
+    width: 60rem;
+    height: 55rem;
+    background-color: #0e1618;
+    position: relative;
+
+}
+.menu-div2::before{
+    position: absolute;
+    content: '';
+    left: 37px;
+    right: 37px;
+    top: -17px;
+    bottom: -17px;
+    border: 1px solid #c6ac83;
+}
+.menu-wrap {
+    width: 100%;
+    background-color: #0e1618;
+    position: relative;
+    height: 100%;
+}
+.menu-wrap ul {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    border-bottom: 1px solid;
+    padding-bottom: 2rem;
+}
+.menu-wrap ul {
+    list-style: none;
+    color: white;
+}
+.menu-list-wrap .line {
+    flex-grow: 1;
+    height: 12px;
+    margin-left: 12px;
+    margin-right: 17px;
+    border-bottom: 1px solid #3c3c33;
+}
+.menu-list-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.from-our-menu {
+    font-size: 4rem;
+}
+.menu-list-wrap h1, .menu-list-wrap .price {
+    color: #c6ac83;
+    font-size: 2rem;
+}
+.price {
+    color: #c6ac83 !important;
+    font-size: 2rem !important;
+}
+.tab-container {
+    padding: 6rem;
+}
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-family: "Cormorant Infant", serif;
+}
+
+@media screen and (max-width: 767px) { 
+    .section {
+        padding: 8rem 0;
+    }
+    .section::before {
+        position: initial !important;
+    }
+    .section::after {
+        position: initial !important;
+    }
+    .section-container h1{
+        font-size: 2rem !important;
+    }
+    .section-container p {
+        padding: 0 3rem;
+        font-size: 1.3rem !important;
+    }
+}

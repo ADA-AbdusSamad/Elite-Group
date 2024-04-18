@@ -1,0 +1,112 @@
+.header {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  background-color: #0e1618;
+  padding: 0 1rem;
+}
+.location-div {
+  width: 23.9rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+.icon-div {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #c6ac83;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon {
+  color: #c6ac83 !important;
+  font-size: 1.5rem;
+}
+.content {
+  padding-left: 1.5rem;
+}
+
+#site-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-71.5px);
+  z-index: 5;
+}
+.site-logo-wrap {
+  padding: 10px 46px 13px 46px;
+  border-left: 1px solid rgb(198 172 131 / 80%);
+  border-right: 1px solid rgb(198 172 131 / 80%);
+  border-bottom: 1px solid rgb(198 172 131 / 80%);
+  border-bottom-left-radius: 72.5px;
+  border-bottom-right-radius: 72.5px;
+  background-color: #0e1618;
+}
+#logo_header {
+  width: 51px;
+  height: 92px;
+}
+
+.p1 {
+  color: #c6ac83;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+.pp {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 0 !important;
+}
+
+.content-end {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 6rem;
+}
+
+.flex-div {
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.button-div button {
+  height: 50px;
+  padding: 0 33px;
+  background-color: #c6ac83;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'CerebriSans';
+  font-size: 13px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+  border:  none;
+}
+
+.button-div button:hover {
+  background-color: #FFF;
+  color: #c6ac83;
+}
+.navbar-p {
+  color: #c6ac83;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-family: PS Demo;
+  cursor: pointer;
+  font-style: italic;
+}
+.navbar-p-span {
+  color: white !important;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: PS Demo;
+  margin-bottom: 0;
+}

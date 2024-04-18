@@ -1,0 +1,42 @@
+.testi-section {
+    background-color: #0e1618;
+    padding: 10rem 0;
+}
+
+.testi-container {
+    text-align: center;
+    padding: 0 18rem !important;
+}
+
+.testi-img {
+    padding-bottom: 3rem;
+}
+
+.testi-img img {
+    width: 30px;
+}
+.testi-container h3 {
+    padding-bottom: 2rem;
+}
+
+.testi-container p {
+    line-height: 3rem;
+}
+.testi-container p i {
+    padding: 0 4px;
+    font-size: 1.8rem;
+    color: #b09a72;
+}
+
+@media screen and (max-width: 767px) { 
+    .testi-container {
+        padding: 0 5rem !important;
+    }
+    .testi-container h3 {
+        font-size: 2rem !important;
+    }
+    .testi-container p {
+        font-size: 1.2rem !important;
+        line-height: 2rem !important;
+    }
+}

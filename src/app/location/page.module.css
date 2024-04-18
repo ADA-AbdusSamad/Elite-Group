@@ -1,0 +1,42 @@
+.location-section {
+    background-color: #0e1618;
+    padding: 7rem 0;
+}
+.location-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.itemDiv1 {
+    width: 50rem;
+    height: 65rem;
+    display: flex;
+    align-items: center;
+}
+.itemDiv1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemDiv2 {
+    width: 50rem;
+    height: 60rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .location-section {
+        padding: 2rem 0;
+    } 
+    .location-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .itemDiv1 {
+        height: auto;
+        padding-bottom: 3rem;
+    }
+}

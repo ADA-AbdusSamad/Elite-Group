@@ -1,0 +1,162 @@
+.menuPage-section {
+    background-image: url('https://themesflat.co/html/restaurant/luxury/assets/images/bg-section/bg-menu.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 16rem 0;
+}
+
+.menuPage-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000096;
+}
+
+.menuPage-container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menuPage-container h1 {
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    line-height: 10rem;
+    text-transform: uppercase;
+    font-family: PS Demo;
+    position: relative;
+}
+
+.menuPage-h1::before {
+    position: absolute;
+    content: '';
+    width: 56px;
+    height: 2px;
+    left: -80px;
+    top: 58%;
+    background-color: #c6ac83;
+}
+
+.menuPage-h1::after {
+    position: absolute;
+    content: '';
+    width: 56px;
+    height: 2px;
+    right: -81px;
+    top: 58%;
+    background-color: #c6ac83;
+}
+.menuPage-content {
+    background-color: #0e1618;
+    padding-top: 16rem;
+    position: relative;
+}
+.menuPage-content .image-item2 {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+.menuPage-content img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menuPage-logo {
+    position: relative !important;
+}
+.menuPage-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 26rem !important;
+}
+
+.menu-system-section {
+    background-color: #0e1618;
+}
+
+.menu-system-section ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.menu-buttons-div button {
+    height: 40px;
+    padding: 0 28px;
+    margin-bottom: 16px;
+    border: 1px solid #c6ac83;
+    font-family: 'CerebriSans';
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    line-height: 40px;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    color: white;
+}
+.menu-buttons-div {
+    padding: 5rem 0;
+}
+.menu-img-div {
+    width: 38rem;
+    height: 45rem;
+}
+.menu-list-div {
+    background-color: #182125;
+    width:65rem;
+    height: 55rem;
+}
+.menu-img-div img {
+    width: 100%;
+    height: 100%;
+}
+.menu-system-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-bottom: 10rem;
+}
+.menu-list-wrap .line {
+    flex-grow: 1;
+    height: 12px;
+    margin-left: 12px;
+    margin-right: 17px;
+    border-bottom: 1px solid #3c3c33;
+}
+.menu-list-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.from-our-menu {
+    font-size: 4rem;
+}
+.menu-list-wrap h1, .menu-list-wrap .price {
+    color: #c6ac83;
+    font-size: 2rem;
+}
+.price {
+    color: #c6ac83 !important;
+    font-size: 2rem !important;
+}
+.tab-container {
+    padding: 6rem;
+}
