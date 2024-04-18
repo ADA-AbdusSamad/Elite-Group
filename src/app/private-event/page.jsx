@@ -6,8 +6,8 @@ export default function page() {
   return (
     <div>
       <section className={styles.section}>
-        <div className={`${styles['section-container']} container`}>
-          <div className='text-center'>
+        <div className={`${styles["section-container"]} container`}>
+          <div className="text-center">
             <h3>Private Event</h3>
             <h1>perfect place for event</h1>
             <div className='event-divider'>
