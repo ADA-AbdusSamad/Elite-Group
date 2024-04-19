@@ -72,6 +72,8 @@
   display: flex;
   justify-content: end;
   gap: 5rem;
+  height: 100%;
+  align-items: center;
 }
 
 .flex-div {
@@ -136,6 +138,8 @@
 
 .navbar-projects-text {
   font-size: 2rem;
+  padding-top: 0;
+  margin-bottom: 0;
 }
 .flex-div:hover .navbar-title::before {
   width: 98%;
@@ -163,10 +167,13 @@
   background-color: white;
   display: none;
   left: -5rem;
-  top: 8rem;
+  top: 10rem;
 }
 .projects-dropdown {
   position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .projects-dropdown:hover .navbar-dropdown {
   display: block !important;
@@ -183,4 +190,23 @@
 }
 .dropdown-ul li:last-child {
   border-bottom: none;
+}
+
+@media screen and (max-width: 767px) { 
+  .flex-div {
+    display: none;
+  }
+  .content-end {
+    display: none;
+  }
+  .header {
+    height: 7rem;
+  }
+  .site-logo-wrap {
+    padding: 1px 21px 13px 21px;
+  }
+  #site-logo {
+    position: absolute;
+    left: 56%;
+  }
 }

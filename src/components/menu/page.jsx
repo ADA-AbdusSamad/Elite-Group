@@ -35,17 +35,15 @@ export default function page() {
                   </svg>
                 </div>
               </div>
-              <h3 className={styles["about-text"]}>The Taste Make its Special</h3>
-              <h1 className={styles["star5-text from-our-menu"]}>From Our Menu</h1>
+              <h3 className={styles["about-text"]}>Stand Out with Our Projects</h3>
+              <h1 className={styles["star5-text from-our-menu"]}>EXPLORE OUR PROJECTS</h1>
               <div className={styles.divider}>
                 <div className={styles["divider-div"]}>
                 </div>
               </div>
-              <p className="pt-3">We always give our customers a feeling of peace of mind
-                and comfort when dining at our restaurant. Fusce vestibulum
-                erat  ac quam bibendum auctor.</p>
+              <p className="pt-3">Discover our premier real estate projects, setting new standards in luxury living. From exquisite designs to prime locations, we redefine elegance.</p>
               <div className="discover-btn-div">
-                <button className="discover-btn">DISCOVER MENU</button>
+                <button className="discover-btn">DISCOVER</button>
               </div>
             </div>
           </div>
@@ -60,9 +58,6 @@ export default function page() {
                 </li>
                 <li className='nav-item'>
                   <a className={`${styles["nav-link"]} nav-link`} href="#dessert" role="tab" data-toggle="tab">Completed</a>
-                </li>
-                <li className='nav-item'>
-                  <a className={`${styles["nav-link"]} nav-link`} href="#wine" role="tab" data-toggle="tab">Location</a>
                 </li>
               </ul>
               <div className={styles['tab-container']}>
@@ -83,7 +78,7 @@ export default function page() {
 
                   </div>
                   <div id="dinner" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
-                    <img src='upcoming-img.jpg'></img>
+                    <img src='upcoming2.jpg'></img>
                     <div className='event-divider event-divider-menu'>
                       <div>
                       </div>
@@ -109,46 +104,6 @@ export default function page() {
                       </div>
                     </div>
                     <p className='text-center'>Andheri east, Millat nagar - Curry Road</p>
-                  </div>
-                  <div id="wine" className={`${styles["menu-list"]} tab-pane`} role="tabpanel">
-                    <div className={styles['menu-list-wrap']}>
-                      <div className='name'>
-                        <h1>PURPLE CORN TOSTODA</h1>
-                      </div>
-                      <div className='line'></div>
-                      <div className={styles.price}>$87</div>
-                    </div>
-                    <p>Candied jerusalem artichokes, truffle</p>
-                    <div className={`${styles["menu-list"]}`}>
-                      <div className={styles['menu-list-wrap']}>
-                        <div className='name'>
-                          <h1>PURPLE CORN TOSTODA</h1>
-                        </div>
-                        <div className='line'></div>
-                        <div className={styles.price}>$33</div>
-                      </div>
-                      <p>Candied jerusalem artichokes, truffle</p>
-                    </div>
-                    <div className={`${styles["menu-list"]}`}>
-                      <div className={styles['menu-list-wrap']}>
-                        <div className='name'>
-                          <h1>PURPLE CORN TOSTODA</h1>
-                        </div>
-                        <div className='line'></div>
-                        <div className={styles.price}>$92</div>
-                      </div>
-                      <p>Candied jerusalem artichokes, truffle</p>
-                    </div>
-                    <div className={`${styles["menu-list"]}`}>
-                      <div className={styles['menu-list-wrap']}>
-                        <div className='name'>
-                          <h1>PURPLE CORN TOSTODA</h1>
-                        </div>
-                        <div className='line'></div>
-                        <div className={styles.price}>$72</div>
-                      </div>
-                      <p>Candied jerusalem artichokes, truffle</p>
-                    </div>
                   </div>
                 </div>
               </div>

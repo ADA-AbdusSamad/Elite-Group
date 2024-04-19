@@ -5,7 +5,7 @@ import Button from "@/components/Button/Button";
 import { register } from 'swiper/element/bundle';
 import About from "./about/page";
 import PrivateEvent from './private-event/page'
-import BookingPage from '../app/booking/page'
+import BookingPage from '../app/enquiry/page'
 import LocationPage from '../app/location/page'
 import Card from '../app/cards/page'
 import Menu from '../components/menu/page'
@@ -40,9 +40,9 @@ export default function Home() {
           <swiper-slide id="slide-one">
             <div className="container slide-one-container">
               <div>
-                <h1 className="bringing-text text-center">Bringing Class To Cuisine</h1>
-                <h1 className="h1-text2">Where every flavor tells a story</h1>
-                <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
+                <h1 className="bringing-text text-center">Crafting Dreams Building Legacies</h1>
+                <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
+                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>
@@ -53,9 +53,9 @@ export default function Home() {
           <swiper-slide id="slide-two" >
             <div className="container slide-one-container">
               <div>
-                <h1 className="bringing-text text-center">Bringing Class To Cuisine</h1>
-                <h1 className="h1-text2">Where every flavor tells a story</h1>
-                <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
+                <h1 className="bringing-text text-center">Crafting Dreams, Building Legacies</h1>
+                <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
+                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>
@@ -66,9 +66,9 @@ export default function Home() {
           <swiper-slide id='slide-three'>
             <div className="container slide-one-container">
               <div>
-                <h1 className="bringing-text text-center">Bringing Class To Cuisine</h1>
-                <h1 className="h1-text2">Where every flavor tells a story</h1>
-                <p className="text-center">Craving some delicious Paris food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in <br />mind, The Brochette Restaurant is ready to prepare it for you.</p>
+                <h1 className="bringing-text text-center">Crafting Dreams, Building Legacies</h1>
+                <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
+                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>

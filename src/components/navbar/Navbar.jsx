@@ -54,14 +54,16 @@ const Navbar = () => {
 
         <div id={styles["site-logo"]}>
           <div className={styles["site-logo-wrap"]}>
-            <Link href="/menuPage" rel="home" className="main-logo">
+            <Link href="/app" rel="home" className="main-logo">
               <img id={styles["logo_header"]} alt="" src="https://themesflat.co/html/restaurant/luxury/assets/images/logo/logo.png" />
             </Link>
           </div>
         </div>
         <div className={styles["content-end"]}>
           <div className={styles["projects-dropdown"]}>
-            <h1 className={styles["navbar-projects-text"]}>PROJECTS</h1>
+            <div>
+              <h1 className={styles["navbar-projects-text"]}>PROJECTS</h1>
+            </div>
             <div className={styles["navbar-dropdown"]}>
               <ul className={styles["dropdown-ul"]}>
                 <li>
@@ -71,7 +73,7 @@ const Navbar = () => {
                   <h1>Ongoing</h1>
                 </li>
                 <li>
-                  <h1>Completed</h1>
+                  <Link href="/completedProjects"><h1>Completed</h1></Link>
                 </li>
               </ul>
             </div>
