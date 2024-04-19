@@ -54,7 +54,7 @@ const Navbar = () => {
 
         <div id={styles["site-logo"]}>
           <div className={styles["site-logo-wrap"]}>
-            <Link href="/app" rel="home" className="main-logo">
+            <Link href="#" rel="home" className="main-logo">
               <img id={styles["logo_header"]} alt="" src="https://themesflat.co/html/restaurant/luxury/assets/images/logo/logo.png" />
             </Link>
           </div>
