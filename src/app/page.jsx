@@ -42,7 +42,7 @@ export default function Home() {
               <div>
                 <h1 className="bringing-text text-center">Crafting Dreams Building Legacies</h1>
                 <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
-                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
+                <p className="text-center">Searching for your dream property? Whether its a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>
@@ -55,7 +55,7 @@ export default function Home() {
               <div>
                 <h1 className="bringing-text text-center">Crafting Dreams, Building Legacies</h1>
                 <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
-                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
+                <p className="text-center">Searching for your dream property? Whether its a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>
@@ -68,7 +68,7 @@ export default function Home() {
               <div>
                 <h1 className="bringing-text text-center">Crafting Dreams, Building Legacies</h1>
                 <h1 className="h1-text2">Where Every Brick Tells a Tale</h1>
-                <p className="text-center">Searching for your dream property? Whether it's a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
+                <p className="text-center">Searching for your dream property? Whether its a cozy apartment or a spacious villa, we have the <br/> perfect match waiting for you in our listings.</p>
                 <div className="discover-btn-div d-flex justify-content-center">
                   <button className="discover-btn">DISCOVER</button>
                 </div>
