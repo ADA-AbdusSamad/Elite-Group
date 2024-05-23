@@ -1,9 +1,7 @@
-"use client"
 import React from 'react'
 import styles from './page.module.css'
-import { useState,useEffect } from 'react'
+
 export default function page() {
-  const [selectedTab,SetSelectedTab] = useState("special")
   return (
     <div>
       <section className={styles['menu-section']}>
@@ -53,7 +51,7 @@ export default function page() {
             <div className={styles['menu-wrap']}>
               <ul className='nav nav-tabs' role="tablist">
                 <li className='nav-item'>
-                  <a className={`${styles["nav-link"]} nav-link ${selectedTab== "special" ? styles.active : ""}`} href="#special" role="tab" data-toggle="tab">Ongoing</a>
+                  <a className={`${styles["nav-link"]} nav-link active`} href="#special" role="tab" data-toggle="tab">Ongoing</a>
                 </li>
                 <li className='nav-item'>
                   <a className={`${styles["nav-link"]} nav-link`} href="#dinner" role="tab" data-toggle="tab">Upcoming</a>
