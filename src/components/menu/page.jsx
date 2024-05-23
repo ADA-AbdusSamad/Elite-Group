@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './page.module.css'
 import { useState,useEffect } from 'react'
 export default function page() {
-  const [selectedTab,setSelectedTab] = useState("special")
+  const [selectedTab,SetSelectedTab] = useState("special")
   return (
     <div>
       <section className={styles['menu-section']}>
