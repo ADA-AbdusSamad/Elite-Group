@@ -9,6 +9,12 @@
     position: relative;
 }
 
+.active {
+    background-color: transparent !important;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    border: 1px !important;
+}
+
 .menu-section::before {
     content: "";
     position: absolute;
@@ -165,3 +171,4 @@
         letter-spacing: 1px;
     }
 }
+

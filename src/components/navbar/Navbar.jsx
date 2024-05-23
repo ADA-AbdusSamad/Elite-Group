@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import React from "react";
 import styles from "./navbar.module.css";
@@ -32,7 +31,6 @@ import styles from "./navbar.module.css";
 // ];
 
 const Navbar = () => {
-
   return (
     // <div className={styles.container}>
     //   <Link href="/" className={styles.logo}>
@@ -49,13 +47,23 @@ const Navbar = () => {
     <div>
       <header className={styles.header}>
         <div className={styles["flex-div"]}>
-          <p className={styles["navbar-title"]}>Elite <span className={styles["golden-span"]}>Group</span> Of <span className={styles["golden-span"]}>Companies</span></p>
+          <Link href="/">
+          <p className={styles["navbar-title"]}>
+            Elite <span className={styles["golden-span"]}>Group</span> Of{" "}
+            <span className={styles["golden-span"]}>Companies</span>
+          </p>
+          </Link>
+         
         </div>
 
         <div id={styles["site-logo"]}>
           <div className={styles["site-logo-wrap"]}>
-            <Link href="#" rel="home" className="main-logo">
-              <img id={styles["logo_header"]} alt="" src="https://themesflat.co/html/restaurant/luxury/assets/images/logo/logo.png" />
+            <Link href="/" rel="home" className="main-logo">
+              <img
+                id={styles["logo_header"]}
+                alt=""
+                src="https://themesflat.co/html/restaurant/luxury/assets/images/logo/logo.png"
+              />
             </Link>
           </div>
         </div>
@@ -67,13 +75,19 @@ const Navbar = () => {
             <div className={styles["navbar-dropdown"]}>
               <ul className={styles["dropdown-ul"]}>
                 <li>
-                  <h1>Upcoming</h1>
+                  <Link href="/projects/upcoming">
+                    <h1>Upcoming</h1>
+                  </Link>
                 </li>
                 <li>
-                  <h1>Ongoing</h1>
+                  <Link href="/projects/ongoing">
+                    <h1>Ongoing</h1>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/completedProjects"><h1>Completed</h1></Link>
+                  <Link href="/projects/completed">
+                    <h1>Completed</h1>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -83,7 +97,7 @@ const Navbar = () => {
               <i id={styles.icon} className="fa-solid fa-phone"></i>
             </div>
             <div className={styles.content}>
-              <p className={styles.p1}>EliteGroup@gmail.com</p>
+              <p className={styles.p1}><a href="mailto:elitegroupofcompany1989@gmail.com" className={styles.contactLink}>EliteGroup@gmail.com</a></p>
               <p className={styles.pp}>+34 455 698 1220</p>
             </div>
           </div>

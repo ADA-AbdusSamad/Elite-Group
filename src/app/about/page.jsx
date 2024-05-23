@@ -19,7 +19,7 @@ const About = () => {
               </div>
             </div>
             <h2>we create experiences, weaving narratives that turn each<br /> interaction into a celebration of luxury living..</h2>
-            <p className="pt-3">we are more than just a real estate agency - we are your trusted partners in realizing your property goals. With years of industry expertise and a commitment to excellence, we strive to deliver unparalleled service and satisfaction to our clients. Learn more about our vision, values, and the team behind our success</p>
+            <p className="pt-3">Elite Group is in the real estate business since 1989. We have developed many world class luxury Projects all over Mumbai & Suburbs. We have completed various redevelopment project under SRA/ Private Land / Govt Land / BMC Land under various redevelopment Scheme.</p>
             <div className="discover-btn-div">
               <button className="discover-btn">DISCOVER</button> 
             </div>

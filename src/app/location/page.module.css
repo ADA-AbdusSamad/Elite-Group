@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
 }
-.itemDiv1 img {
+.itemDiv1 iframe {
     width: 100%;
     height: 100%;
 }
@@ -25,6 +25,20 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+.browser{
+    width: 4rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+
+
+.contactLink{
+    color: white;
+}
+
+.contactLink:hover{
+    color: white;
 }
 
 @media screen and (max-width: 767px) {

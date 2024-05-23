@@ -12,7 +12,6 @@
   padding: 4rem 0;
 }
 
-
 .items {
   width: 28rem;
   height: 20rem;
@@ -50,7 +49,7 @@
 
 .item1::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 38px;
   height: 1px;
   bottom: 10rem;
@@ -60,7 +59,7 @@
 
 .item3::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 38px;
   height: 1px;
   right: 32rem;
@@ -75,7 +74,13 @@
   font-size: 1.2rem;
   letter-spacing: 2px;
 }
-@media screen and (max-width: 767px) { 
+
+.contactLink,
+.contactLink:hover {
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
   .footer-container {
     display: flex;
     flex-wrap: wrap;

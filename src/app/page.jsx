@@ -1,8 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Hero from "public/hero.png";
-import Button from "@/components/Button/Button";
-import { register } from 'swiper/element/bundle';
 import About from "./about/page";
 import PrivateEvent from './private-event/page'
 import BookingPage from '../app/enquiry/page'

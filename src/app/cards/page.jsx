@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../cards/page.module.css'
 
-
 export default function page() {
   return (
     <div>
